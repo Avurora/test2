@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*トップ-------------------------------------------------------------*/
+.main{
+    border: #000 1px solid;
+    width: 400px;
+    height: 5000px
+}
+
+.top{
+    background: #77b8d3;
+}
+.top p{
+    color: #FFF;
+    padding: 20px;
+    margin: 0;
+    
+}
+.sns{
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+
+/*大くくり：壁紙-------------------------------------------------------------*/
+.wallpaper{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+/*メンバーアイコン-------------------------------------------------------------*/
+.member-all{
+    text-align: center;
+}
+.up,.center,.under{
+    display: inline-block;
+}
+.member-all img{
+    margin: 5px 16px;
+}
+.member-all p{
+    margin-top: -5px;
+}
+
+
+
+/*背景----------------------------------------------------------*/
+.sun{
+    position: relative;
+    bottom: 430px;
+    z-index: -1;
+    margin-bottom:-430px;
+}
+.sea{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: -20px; 
+}
+
+
+
+/*　大くくり：コール-------------------------------------------------*/
+.call{
+    text-align: center;
+    margin-bottom: 60px
+}
+
+
+
+/*コールスクロール-------------------------------------------------*/
+.search{
+    background: #E5E5E5;
+    padding: 8px;
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+    left: 43px;
+    color: #FFF;
+}
+.searchlog{
+    margin-top: -40px;
+    margin-left: 22px;
+}
+.psyllium{
+    position: relative;
+    left: 360px;
+    bottom: 10px;
+}
+.scrool{
+    width: 350px;
+    height: 200px;
+    overflow: scroll;
+    text-align: center;
+    border: #77b8d3 2px solid;
+    border-radius: 10px;
+    margin: auto;
+}
+.rhythm{
+    margin: 10px;
+}
+
+
+
+/*大くくり：ニュース-------------------------------------------------*/
+.news{
+    text-align: center;
+    margin: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
