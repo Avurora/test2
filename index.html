@@ -90,6 +90,37 @@
     
     
 <!--    コールメニュー----------------------------------------------->
+    
+    <div class="tabs">
+  <input id="all" type="radio" name="tab_item" checked>
+  <label class="tab_item" for="all">総合</label>
+  <input id="programming" type="radio" name="tab_item">
+  <label class="tab_item" for="programming">プログラミング</label>
+  <input id="design" type="radio" name="tab_item">
+  <label class="tab_item" for="design">デザイン</label>
+  <div class="tab_content" id="all_content">
+    <div class="tab_content_description">
+      <p class="c-txtsp">総合の内容がここに入ります</p>
+    </div>
+  </div>
+  <div class="tab_content" id="programming_content">
+    <div class="tab_content_description">
+      <p class="c-txtsp">プログラミングの内容がここに入ります</p>
+    </div>
+  </div>
+  <div class="tab_content" id="design_content">
+    <div class="tab_content_description">
+      <p class="c-txtsp">デザインの内容がここに入ります</p>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
     <img src="09.png" alt="" width="30px" class="psyllium">
     <h3 class="searchlog">人気曲</h3>
     <div class="scrool-center">
@@ -124,9 +155,22 @@
        <a class="twitter-timeline" data-width="380" data-height="400" href="https://twitter.com/629_k176?ref_src=twsrc%5Etfw">Tweets by 629_k176</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
     
+    
+    
+    
+    <!--    帯------------------------------------------------->
+        <img src="13.png" alt="" width="100%" class="last">
 
     
- 
+<!--    ハンバーガーマーク--------------------------------------------------->
+ <header class="fixed">
+  <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span class="three"></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">ここに中身を入れる</div>
+  </div>
+</header>
     
     
     
@@ -135,9 +179,4 @@
     
 </div>
 </body>
-    
-    <!--    帯------------------------------------------------->
-    <div class="last">
-        <img src="13.png" alt="" width="100%">
-    </div>
 </html>
